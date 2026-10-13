@@ -7,8 +7,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "问题与结果",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "AGENTS.md",
@@ -16,8 +16,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "GB28181 Lab 开发入口",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "CLAUDE.md",
@@ -34,8 +34,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "开发与贡献",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "DESIGN.md",
@@ -43,8 +43,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "设计入口",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验；A-014：登记初版 UI 参考，未修改应用界面"
     },
     {
       "path": "docs/decisions/0001-document-governance.md",
@@ -70,8 +70,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "有效决定记录",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
     },
     {
       "path": "docs/delivery/roadmap-and-acceptance.md",
@@ -79,8 +79,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "交付路线与验收规则",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收；A-013/014 协作规范与初版 UI 参考的原阶段核对保留，衔接只复验文档"
     },
     {
       "path": "docs/delivery/status.md",
@@ -88,8 +88,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "当前状态",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
     },
     {
       "path": "docs/delivery/traceability.md",
@@ -97,8 +97,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "需求到证据追踪",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
     },
     {
       "path": "docs/design-rules/DESIGN.md",
@@ -106,8 +106,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "交互与视觉规则",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验；A-014：登记初版 UI 参考，未修改应用界面"
     },
     {
       "path": "docs/design.md",
@@ -115,8 +115,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "GB28181 Lab 设计文档",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收；A-013/014 协作规范与初版 UI 参考的原阶段核对保留，衔接只复验文档"
     },
     {
       "path": "docs/dev-rules/architecture-and-contracts.md",
@@ -124,8 +124,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "架构与公共契约规则",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/dev-rules/communication.md",
@@ -133,8 +133,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "沟通与用户事项",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/dev-rules/data-and-security.md",
@@ -142,8 +142,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "数据、安全与真实环境",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/dev-rules/development-workflow.md",
@@ -151,8 +151,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "Agent 开发流程",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/dev-rules/git-and-github.md",
@@ -160,8 +160,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "Git 与 GitHub 协作",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/dev-rules/local-materials.md",
@@ -169,8 +169,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "本地资料与参考边界",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/dev-rules/protocol-engineering.md",
@@ -187,8 +187,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "质量门禁",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
     },
     {
       "path": "docs/dev-rules/repo-map.md",
@@ -196,8 +196,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "仓库地图",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/evidence/foundation.md",
@@ -214,8 +214,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "文档治理",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
     },
     {
       "path": "docs/product-rules/core-product-principles.md",
@@ -232,8 +232,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "GB28181 Lab 文档导航",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收；A-013/014 协作规范与初版 UI 参考的原阶段核对保留，衔接只复验文档"
     },
     {
       "path": "docs/requirements.md",
@@ -241,8 +241,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "GB28181 Lab 需求文档",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收；A-013/014 协作规范与初版 UI 参考的原阶段核对保留，衔接只复验文档"
     },
     {
       "path": "docs/standards/README.md",
@@ -250,8 +250,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "GB28181 Lab 标准与协议依据",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收"
     },
     {
       "path": "docs/tech-stack.md",
@@ -259,17 +259,17 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "GB28181 Lab 技术栈与选型状态",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收；A-013/014 协作规范与初版 UI 参考的原阶段核对保留，衔接只复验文档"
     },
     {
       "path": "docs/templates/agent-handoff.md",
       "kind": "template",
       "status": "active",
       "owner": "当前维护者",
-      "scope": "开发交接模板",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "scope": "Agent A / B 交接与用户事项模板",
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/templates/change-proposal.md",
@@ -277,8 +277,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "变更提案模板",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/templates/decision-record.md",
@@ -286,8 +286,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "ADR-NNNN 标题",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/templates/module-spec.md",
@@ -295,8 +295,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "模块规格模板",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/templates/README.md",
@@ -304,8 +304,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "模板导航",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "docs/templates/validation-report.md",
@@ -313,8 +313,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "验证报告模板",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "README.md",
@@ -322,8 +322,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "GB28181 Lab · 国标视频协议模拟实验室",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收；A-013/014 协作规范与初版 UI 参考的原阶段核对保留，衔接只复验文档"
     },
     {
       "path": "REVIEW.md",
@@ -331,8 +331,8 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "评审入口",
-      "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
     },
     {
       "path": "SECURITY.md",
@@ -349,8 +349,107 @@
       "status": "active",
       "owner": "当前维护者",
       "scope": "用户事项入口",
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验"
+    },
+    {
+      "path": "docs/delivery/m0-agent-a-prompt.md",
+      "kind": "document",
+      "status": "reference",
+      "owner": "当前维护者",
+      "scope": "M0 单 Agent 历史执行输入；当前接续使用通用 A/B 交接",
+      "reviewed": "2026-10-08",
+      "basis": "A-012：本轮逐项同步开发协作流程；核对角色、版本、用户事项和真实验证边界，不代表产品验收；M0 新基点衔接：保留原记录的日期/版本，当前产品结论引用 M0 报告"
+    },
+    {
+      "path": "docs/delivery/m0-plan.md",
+      "kind": "document",
+      "status": "active",
+      "owner": "当前维护者",
+      "scope": "M0 当前计划：工程基础与四项信令",
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
+    },
+    {
+      "path": "docs/delivery/m0-protocol.md",
+      "kind": "document",
+      "status": "active",
+      "owner": "当前维护者",
+      "scope": "M0 协议调研与验收矩阵",
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收"
+    },
+    {
+      "path": "docs/dev-rules/local-test-environment.md",
+      "kind": "document",
+      "status": "active",
+      "owner": "当前维护者",
+      "scope": "仅用于本地的测试环境",
+      "reviewed": "2026-10-11",
+      "basis": "2026-10-11 M0 收尾：两版原文、显式兼容、实际验证与自审核对；不代表完整标准或用户验收；A-013/014 协作规范与初版 UI 参考的原阶段核对保留，衔接只复验文档"
+    },
+    {
+      "path": "docs/evidence/m0-preparation.md",
+      "kind": "document",
+      "status": "reference",
+      "owner": "当前维护者",
+      "scope": "M0 准备阶段证据",
       "reviewed": "2026-10-07",
-      "basis": "2026-10-07 三仓库基础建设；结构与内容自审，不代表产品验收"
+      "basis": "2026-10-07 用户 M0 要求与准备范围澄清；结构/内容自审，不代表产品验收"
+    },
+    {
+      "path": "docs/delivery/m0-implementation.md",
+      "kind": "document",
+      "status": "active",
+      "owner": "当前维护者",
+      "scope": "M0 实现与运行合同",
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
+    },
+    {
+      "path": "docs/evidence/m0-implementation.md",
+      "kind": "document",
+      "status": "reference",
+      "owner": "当前维护者",
+      "scope": "M0 实施验证和自审",
+      "reviewed": "2026-10-13",
+      "basis": "A-019：按用户授权归并历史和 M0 交付，核对内容保留、本地复验及远端集成边界；实施者自审，独立审查未发生"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "kind": "document",
+      "status": "active",
+      "owner": "当前维护者",
+      "scope": "第三方依赖许可清单",
+      "reviewed": "2026-10-07",
+      "basis": "M0 用户授权实施；实际代码、独立检查、外部失败与自审"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "kind": "document",
+      "status": "active",
+      "owner": "当前维护者",
+      "scope": "标准/兼容模式合同、两版原文与全部兼容执行索引",
+      "reviewed": "2026-10-11",
+      "basis": "用户明确要求两种模式与完整兼容记录；两版 OCR/PDF、独立测试和逐次真实外测"
+    },
+    {
+      "path": "docs/delivery/collaboration-process-plan.md",
+      "kind": "document",
+      "status": "active",
+      "owner": "当前维护者",
+      "scope": "开发协作流程同步的完整范围与验证计划",
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验；A-014：登记初版 UI 参考，未修改应用界面；M0 新基点衔接：保留原记录的日期/版本，当前产品结论引用 M0 报告"
+    },
+    {
+      "path": "docs/evidence/collaboration-process.md",
+      "kind": "document",
+      "status": "reference",
+      "owner": "当前维护者",
+      "scope": "开发流程逐文档核对、实施与自审记录",
+      "reviewed": "2026-10-11",
+      "basis": "A-013：逐文件同步开发协作规范，由单 Agent 规划、实施与自审；仅核对本轮文档范围，不代表独立审查或产品复验；A-014：登记初版 UI 参考，未修改应用界面；M0 新基点衔接：保留原记录的日期/版本，当前产品结论引用 M0 报告"
     }
   ]
 }

@@ -22,3 +22,15 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/verify.py
+      - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16
+        with:
+          go-version: '1.27.0'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24.19.0'
+      - run: |
+          npm install --prefix .local/ci-tools pnpm@12.8.1
+          echo "$GITHUB_WORKSPACE/.local/ci-tools/node_modules/.bin" >> "$GITHUB_PATH"
+      - run: pnpm --dir web install --frozen-lockfile
+      - run: pnpm --dir web exec playwright install --with-deps chromium
+      - run: python scripts/verify_app.py --race --e2e
