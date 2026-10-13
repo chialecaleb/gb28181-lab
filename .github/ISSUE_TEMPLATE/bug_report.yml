@@ -1,0 +1,14 @@
+name: 缺陷报告
+description: 可复现的问题与实际证据
+body:
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤、预期与实际
+      description: 提供提交版本、环境、最小步骤与脱敏证据，不包含真实凭据或设备地址。
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 影响与临时处理

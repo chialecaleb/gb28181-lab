@@ -1,0 +1,10 @@
+name: 功能建议
+description: 用户场景、目标与验收
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 场景与期望结果
+      description: 说明使用者、问题、范围与可验证的完成条件。
+    validations:
+      required: true

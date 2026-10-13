@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.pdf binary
+*.jpg binary
+*.png binary
+docs/standards/GBT28181-2022/*.md whitespace=-blank-at-eol
+docs/standards/GB35114-2017/*.md whitespace=-blank-at-eol

@@ -1,0 +1,42 @@
+# Local-only configuration and reference material
+.env
+.env.*
+!.env.example
+/.local/
+/reference/
+/references/
+/tmp/
+/artifacts/
+/captures/
+/recordings/
+/secrets/
+*.local.*
+*.key
+*.p12
+*.pfx
+*.pcap
+*.pcapng
+*.log
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+# Build and tool output
+node_modules/
+dist/
+bin/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Java and test outputs
+target/
+.gradle/
+playwright-report/
+test-results/
