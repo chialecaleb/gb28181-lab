@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "ruleVersion": "gb2022-m0-2",
+  "standard": "GB/T 28181-2022",
+  "sourceSha256": "727dfbd2d1094780d2044800de7c59743550088d871a717c7bb4d36f33710cc6",
+  "reviewedPdfPages": [18, 19, 22, 23, 24, 35, 36, 37, 38, 63, 64, 65, 66, 67, 68, 69, 87, 88, 92, 97, 98, 120, 121, 122, 123, 145, 146, 152],
+  "rules": [
+    {"id":"ENC","clause":"6.10","page":12,"pdfPage":19,"direction":"both","requirement":"LAB-C-002","rule":"GB18030 octets; final body byte count; ASCII SIP headers in the M0 profile"},
+    {"id":"IDENTITY","clause":"6.1.2; E.1; A.1","page":11,"pdfPage":18,"direction":"both","requirement":"LAB-C-005","rule":"20-digit device identities; 8+2+3+1+6 segments; From/To source/destination for MANSCDP MESSAGE; business response MESSAGE reverses identities; SIP responses retain request From/To"},
+    {"id":"REG","clause":"9.1.1; 9.1.2","page":16,"pdfPage":23,"direction":"device -> registrar","requirement":"LAB-F-001","rule":"Digest on registration, refresh and deregistration; default 86400 s, minimum 3600 s; retry >=60 s; preserve TCP connection"},
+    {"id":"VERSION","clause":"I","page":138,"pdfPage":145,"direction":"REGISTER and all replies","requirement":"LAB-C-003","rule":"X-GB-Ver 3.0; preserve observed missing/mismatched version as failed standard check, independent of SIP result"},
+    {"id":"QUERY","clause":"9.5.2; 9.5.3; A.2.4.3-4; A.2.6.4-5","page":29,"pdfPage":36,"direction":"platform -> device -> platform","requirement":"LAB-F-007","rule":"MESSAGE Query, empty SIP 200, independent MESSAGE Response with matching SN/target, empty SIP 200"},
+    {"id":"KEEP","clause":"9.6; A.2.5.2","page":30,"pdfPage":37,"direction":"device -> platform","requirement":"LAB-F-008","rule":"MESSAGE Notify/Keepalive; Status OK or ERROR; normal vector includes empty Info; 60 s and 3 missed periods both directions"},
+    {"id":"CAT","clause":"A.2.1.9; A.2.6.4; J; M","page":145,"pdfPage":152,"direction":"device -> platform","requirement":"LAB-C-010","rule":"query device returns self and children; time filters can yield zero; empty SumNum=0 omits DeviceList; same SN, serial acknowledgements, <=10000 items/message"}
+  ],
+  "policies": {
+    "digest": "MD5 qop=auth challenges; accept legacy no-qop; unpredictable expiring nonce, opaque, replay checks; direct registrar URI checked exactly; not GB35114",
+    "registerUri": "RFC3261 10.2 and 25: no userinfo in standard REGISTER; a valid routing hostport is separate from the GB 6.1.2 numeric From/To domain and Digest realm",
+    "compatibility": "Explicit external mode only: COMPAT-001 follows the 2016 normative J.1/J.3 REGISTER userinfo form; 2022 removed that appendix and 4.3.2 governs precedence. COMPAT-002 admits GB2312-declared ASCII DeviceInfo/Catalog queries without changing original bytes; both versions' 6.10 remain distinct. Preserve RFC and peer-version observations; no automatic fallback or full 2016/2022 conformity claim.",
+    "catalog": "NVR root type 118 and camera channels type 131/132; PointType=9 synthetic sites; no claimed media, security or optional PTZ capability",
+    "sn": "positive decimal integer string, product limit 64 digits (not a standard maximum); preserve lexical SN for responses",
+    "resourceLimits": "16 in-flight operations; 32 configured channels; 1000 traces / 8 MiB; 64 KiB SIP header / 16 MiB frame; limits are product policy",
+    "unsupported": "unknown methods -> 405; unsupported CmdType/filters -> explicit error; 3xx registration -> unsupported and offline; no automatic downgrade",
+    "scope": "This contract covers the M0 slice, not all GB28181 or GB35114 requirements."
+  },
+  "rfc": ["RFC3261 sections 8, 10, 17, 18, 20.14, 22.4", "RFC2617 sections 3.2.1, 3.2.2, 3.5", "RFC3428 sections 3-8", "RFC3581 sections 3-4"]
+}

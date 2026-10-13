@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "source": "m0-contract.json; manual XML + Python gb18030/hashlib",
+  "encoding": [
+    {
+      "text": "中文𠀀",
+      "hex": "d6d0cec495328236"
+    }
+  ],
+  "xml": [
+    {
+      "name": "keepalive",
+      "text": "<?xml version=\"1.0\" encoding=\"GB18030\"?>\r\n<Notify>\r\n<CmdType>Keepalive</CmdType>\r\n<SN>1</SN>\r\n<DeviceID>34020000001180000001</DeviceID>\r\n<Status>OK</Status>\r\n<Info></Info>\r\n</Notify>\r\n",
+      "hex": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d2247423138303330223f3e0d0a3c4e6f746966793e0d0a3c436d64547970653e4b656570616c6976653c2f436d64547970653e0d0a3c534e3e313c2f534e3e0d0a3c44657669636549443e33343032303030303030313138303030303030313c2f44657669636549443e0d0a3c5374617475733e4f4b3c2f5374617475733e0d0a3c496e666f3e3c2f496e666f3e0d0a3c2f4e6f746966793e0d0a",
+      "length": 184,
+      "sha256": "144bd4221fd99128dd40c98d6bb9f3794a3559422efb405a2f079fec34e6fd5c"
+    },
+    {
+      "name": "info-query",
+      "text": "<?xml version=\"1.0\" encoding=\"GB18030\"?>\r\n<Query>\r\n<CmdType>DeviceInfo</CmdType>\r\n<SN>2</SN>\r\n<DeviceID>34020000001180000001</DeviceID>\r\n</Query>\r\n",
+      "hex": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d2247423138303330223f3e0d0a3c51756572793e0d0a3c436d64547970653e446576696365496e666f3c2f436d64547970653e0d0a3c534e3e323c2f534e3e0d0a3c44657669636549443e33343032303030303030313138303030303030313c2f44657669636549443e0d0a3c2f51756572793e0d0a",
+      "length": 147,
+      "sha256": "60564a73ea88743874e1360532e112d6bea6f764a0633d87526a87294cc2bb26"
+    },
+    {
+      "name": "info-response",
+      "text": "<?xml version=\"1.0\" encoding=\"GB18030\"?>\r\n<Response>\r\n<CmdType>DeviceInfo</CmdType>\r\n<SN>2</SN>\r\n<DeviceID>34020000001180000001</DeviceID>\r\n<DeviceName>实验室 &amp; 摄像机𠀀</DeviceName>\r\n<Result>OK</Result>\r\n<Manufacturer>Lab</Manufacturer>\r\n<Model>M0</Model>\r\n<Firmware>0.1</Firmware>\r\n<Channel>1</Channel>\r\n</Response>\r\n",
+      "hex": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d2247423138303330223f3e0d0a3c526573706f6e73653e0d0a3c436d64547970653e446576696365496e666f3c2f436d64547970653e0d0a3c534e3e323c2f534e3e0d0a3c44657669636549443e33343032303030303030313138303030303030313c2f44657669636549443e0d0a3c4465766963654e616d653ecab5d1e9cad22026616d703b20c9e3cff1bbfa953282363c2f4465766963654e616d653e0d0a3c526573756c743e4f4b3c2f526573756c743e0d0a3c4d616e7566616374757265723e4c61623c2f4d616e7566616374757265723e0d0a3c4d6f64656c3e4d303c2f4d6f64656c3e0d0a3c4669726d776172653e302e313c2f4669726d776172653e0d0a3c4368616e6e656c3e313c2f4368616e6e656c3e0d0a3c2f526573706f6e73653e0d0a",
+      "length": 325,
+      "sha256": "a8a95ac3f45ab6afa6aaeeac22e744148afaca3b84db006719f3644b97d62c7d"
+    },
+    {
+      "name": "catalog-empty",
+      "text": "<?xml version=\"1.0\" encoding=\"GB18030\"?>\r\n<Response>\r\n<CmdType>Catalog</CmdType>\r\n<SN>3</SN>\r\n<DeviceID>34020000001180000001</DeviceID>\r\n<SumNum>0</SumNum>\r\n</Response>\r\n",
+      "hex": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d2247423138303330223f3e0d0a3c526573706f6e73653e0d0a3c436d64547970653e436174616c6f673c2f436d64547970653e0d0a3c534e3e333c2f534e3e0d0a3c44657669636549443e33343032303030303030313138303030303030313c2f44657669636549443e0d0a3c53756d4e756d3e303c2f53756d4e756d3e0d0a3c2f526573706f6e73653e0d0a",
+      "length": 170,
+      "sha256": "8d8fe8bd40789a4ad6a0502c3809291dcd760d82cfd181af323c189ffa389539"
+    }
+  ],
+  "digest": {
+    "username": "34020000001180000001",
+    "realm": "3402000000",
+    "password": "synthetic-secret",
+    "method": "REGISTER",
+    "uri": "sip:127.0.0.1:15062",
+    "nonce": "0123456789abcdef",
+    "cnonce": "abcdef0123456789",
+    "nc": "00000001",
+    "ha1": "606ac87b42a10864d1f7a34cb2dce463",
+    "ha2": "965217fca94bc55bc0822ada97a6439c",
+    "legacy": "f8046d09fecace65e5379905131d6cfc",
+    "auth": "b5fcac37d9927f36f96caeeb82ba76b4"
+  },
+  "rfc2617": {
+    "username": "Mufasa",
+    "realm": "testrealm@host.com",
+    "password": "Circle Of Life",
+    "method": "GET",
+    "uri": "/dir/index.html",
+    "nonce": "dcd98b7102dd2f0e8b11d0f600bfb0c093",
+    "nc": "00000001",
+    "cnonce": "0a4f113b",
+    "response": "6629fae49393a05397450978507c4ef1"
+  }
+}

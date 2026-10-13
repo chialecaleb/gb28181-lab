@@ -1,0 +1,890 @@
+{
+  "schemaVersion": 1,
+  "scope": "Sanitized record of executed compatibility operations; no complete standard conformity claim",
+  "runs": [
+    {
+      "id": "COMPAT-RUN-001",
+      "date": "2026-10-11",
+      "kind": "unauthenticated diagnostic",
+      "transport": "UDP",
+      "status": "passed",
+      "interoperability": "not-run",
+      "operations": [
+        {
+          "sequence": 1,
+          "kind": "REGISTER",
+          "direction": "out",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        }
+      ],
+      "controls": {
+        "withoutUserinfo": [
+          400,
+          400,
+          400
+        ]
+      },
+      "cleanup": "passed: no owned device remains"
+    },
+    {
+      "id": "COMPAT-RUN-002",
+      "date": "2026-10-11",
+      "kind": "controlled full interop",
+      "transport": "UDP",
+      "protocolMode": "compatibility",
+      "status": "failed",
+      "sourceFingerprint": "2f00ae6e8c258884146505f404de1daecdfb53b48d0acda6fb6d72e46d802022",
+      "elapsedSeconds": 183.7,
+      "checks": {
+        "passed": false,
+        "registration": true,
+        "digestChallenge": true,
+        "deregistration": true,
+        "normalHeartbeatCycles": true,
+        "deviceinfo": false,
+        "catalog": false,
+        "heartbeatAcknowledged": 3,
+        "heartbeatIntervalsSeconds": [
+          60.999,
+          61.0,
+          60.999
+        ],
+        "registerRequestUserinfo": true
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 2,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 3,
+          "kind": "Catalog",
+          "root": "Query",
+          "direction": "in",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            400
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 4,
+          "kind": "DeviceInfo",
+          "root": "Query",
+          "direction": "in",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            400
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 5,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 6,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 7,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 8,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 9,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        }
+      ],
+      "api": {
+        "catalog": {
+          "http": "failed",
+          "errorType": "HTTPError"
+        },
+        "deviceinfo": {
+          "http": "failed",
+          "errorType": "HTTPError"
+        },
+        "platformOnline": true
+      },
+      "cleanup": "removed"
+    },
+    {
+      "id": "COMPAT-RUN-003",
+      "date": "2026-10-11",
+      "kind": "controlled full interop",
+      "transport": "UDP",
+      "protocolMode": "compatibility",
+      "status": "passed",
+      "sourceFingerprint": "c38392b1d2f9c1b343eba6e7490def280206079fcdfa6b2b9793e5a2352040ea",
+      "elapsedSeconds": 183.7,
+      "checks": {
+        "passed": true,
+        "registration": true,
+        "refresh": true,
+        "digestChallenge": true,
+        "deregistration": true,
+        "normalHeartbeatCycles": true,
+        "deviceinfo": true,
+        "catalog": true,
+        "heartbeatAcknowledged": 3,
+        "heartbeatIntervalsSeconds": [
+          60.998,
+          60.999,
+          61.0
+        ],
+        "registerRequestUserinfo": true
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 2,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 3,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 4,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 5,
+          "kind": "Catalog",
+          "root": "Query",
+          "direction": "in",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-002"
+          ]
+        },
+        {
+          "sequence": 6,
+          "kind": "Catalog",
+          "root": "Response",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 7,
+          "kind": "DeviceInfo",
+          "root": "Query",
+          "direction": "in",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-002"
+          ]
+        },
+        {
+          "sequence": 8,
+          "kind": "DeviceInfo",
+          "root": "Response",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 9,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 10,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 11,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 12,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 13,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "UDP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        }
+      ],
+      "api": {
+        "catalog": {
+          "http": "success",
+          "businessResult": null
+        },
+        "deviceinfo": {
+          "http": "success",
+          "businessResult": "OK"
+        },
+        "platformOnline": true
+      },
+      "cleanup": "removed"
+    },
+    {
+      "id": "COMPAT-RUN-004",
+      "date": "2026-10-11",
+      "kind": "controlled full interop",
+      "transport": "TCP",
+      "protocolMode": "compatibility",
+      "status": "failed",
+      "sourceFingerprint": "c38392b1d2f9c1b343eba6e7490def280206079fcdfa6b2b9793e5a2352040ea",
+      "elapsedSeconds": 183.7,
+      "checks": {
+        "passed": true,
+        "registration": true,
+        "refresh": true,
+        "digestChallenge": true,
+        "deregistration": true,
+        "normalHeartbeatCycles": true,
+        "deviceinfo": true,
+        "catalog": true,
+        "heartbeatAcknowledged": 3,
+        "heartbeatIntervalsSeconds": [
+          60.997,
+          61.0,
+          61.001
+        ],
+        "registerRequestUserinfo": true
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 2,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 3,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 4,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 5,
+          "kind": "Catalog",
+          "root": "Query",
+          "direction": "in",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-002"
+          ]
+        },
+        {
+          "sequence": 6,
+          "kind": "Catalog",
+          "root": "Response",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 7,
+          "kind": "DeviceInfo",
+          "root": "Query",
+          "direction": "in",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-002"
+          ]
+        },
+        {
+          "sequence": 8,
+          "kind": "DeviceInfo",
+          "root": "Response",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 9,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 10,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 11,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 12,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 13,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        }
+      ],
+      "api": {
+        "catalog": {
+          "http": "success",
+          "businessResult": null
+        },
+        "deviceinfo": {
+          "http": "success",
+          "businessResult": "OK"
+        },
+        "platformOnline": true
+      },
+      "application": {
+        "exitCode": 1,
+        "unregister": "failed",
+        "lastReportedSIPStatus": 401,
+        "observedFinalSIPStatus": 200,
+        "finding": "F-14: final TCP response raced experimental connection-close transaction termination"
+      },
+      "cleanup": "removed"
+    },
+    {
+      "id": "COMPAT-RUN-005",
+      "date": "2026-10-11",
+      "kind": "controlled full interop retest after F-14",
+      "transport": "TCP",
+      "protocolMode": "compatibility",
+      "status": "passed",
+      "sourceFingerprint": "94bf29f9888a8c7da8707f7f47b0f033e7b91e6b95183879d9df2055f8d1f3d3",
+      "elapsedSeconds": 183.7,
+      "checks": {
+        "passed": true,
+        "registration": true,
+        "refresh": true,
+        "digestChallenge": true,
+        "deregistration": true,
+        "normalHeartbeatCycles": true,
+        "deviceinfo": true,
+        "catalog": true,
+        "heartbeatAcknowledged": 3,
+        "heartbeatIntervalsSeconds": [
+          60.997,
+          61.0,
+          61.0
+        ],
+        "registerRequestUserinfo": true
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 2,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 3,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 4,
+          "kind": "REGISTER",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 5,
+          "kind": "Catalog",
+          "root": "Query",
+          "direction": "in",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-002"
+          ]
+        },
+        {
+          "sequence": 6,
+          "kind": "Catalog",
+          "root": "Response",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 7,
+          "kind": "DeviceInfo",
+          "root": "Query",
+          "direction": "in",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-002"
+          ]
+        },
+        {
+          "sequence": 8,
+          "kind": "DeviceInfo",
+          "root": "Response",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 9,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 10,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 11,
+          "kind": "Keepalive",
+          "root": "Notify",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": []
+        },
+        {
+          "sequence": 12,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": false,
+          "sipStatuses": [
+            401
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        },
+        {
+          "sequence": 13,
+          "kind": "unregister",
+          "root": "",
+          "direction": "out",
+          "transport": "TCP",
+          "protocolMode": "compatibility",
+          "authenticated": true,
+          "sipStatuses": [
+            200
+          ],
+          "compatibility": [
+            "COMPAT-001"
+          ]
+        }
+      ],
+      "api": {
+        "catalog": {
+          "http": "success",
+          "businessResult": null
+        },
+        "deviceinfo": {
+          "http": "success",
+          "businessResult": "OK"
+        },
+        "platformOnline": true
+      },
+      "application": {
+        "exitCode": 0,
+        "unregister": "completed"
+      },
+      "cleanup": "removed"
+    }
+  ]
+}
